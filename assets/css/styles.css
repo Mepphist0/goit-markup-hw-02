@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --accent-color: #2196f3;
+  --text-color: #212121;
+  --background-color: white;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+  color: rgba(0, 0, 0, 1);
+}
+
+a:hover,
+button:hover {
+  color: #ffffff;
+}
+.contact:focus {
+  color: var(--accent-color);
+}
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2196f3;
+}
+nav {
+  font-size: 14px;
+}
+.contact {
+  font-size: 14px;
+  color: #757575;
+}
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+button {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+.card-description {
+  font-size: 14px;
+  font-weight: 300;
+  color: #757575;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+h3 {
+  font-size: 16px;
+  color: var(--text-color);
+}
+.description {
+  font-size: 16px;
+  font-weight: 300;
+  color: #757575;
+}
+.card-title-2 {
+  color: #757575;
+}
+.adress {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.contact-inf {
+  font-size: 14px;
+  color: #ffffff60;
+}
