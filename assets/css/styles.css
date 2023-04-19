@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: rgba(0, 0, 0, 1);
 }
 
@@ -26,6 +28,7 @@ button:hover {
   font-size: 26px;
   font-weight: 700;
   color: #2196f3;
+  font-family: "Raleway", sans-serif;
 }
 nav {
   font-size: 14px;
