@@ -8,81 +8,105 @@
 
 :root {
   --accent-color: #2196f3;
-  --text-color: #212121;
-  --background-color: white;
+  --text-black-color: #212121;
+  --text-white-color: #ffffff;
+  --text-grey-color: #757575;
+  --background-black-color: #2f303a;
+  --white-variation: #ffffff60;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: rgba(0, 0, 0, 1);
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-black-color);
 }
 
 a:hover,
 button:hover {
-  color: #ffffff;
+  color: var(--accent-color);
 }
-.contact:focus {
+.contact:focus,
+.contact-inf:focus {
   color: var(--accent-color);
 }
 .logo {
   font-size: 26px;
   font-weight: 700;
   color: #2196f3;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 nav {
   font-size: 14px;
+  font-weight: 500;
 }
 .contact {
   font-size: 14px;
-  color: #757575;
+  font-weight: 500;
+  color: var(--text-grey-color);
 }
 h1 {
   font-size: 44px;
   font-weight: 900;
-  color: #ffffff;
-  background-color: #2f303a;
+  line-height: 1.36;
+  color: var(--text-white-color);
+  background-color: var(--background-black-color);
+}
+.section-1{
+  background-color: var(--background-black-color);
 }
 button {
   font-size: 16px;
   font-weight: 700;
-  color: #ffffff;
+  line-height: 1.87;
+  color: var(--text-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
-h3 {
+.section-2 h3 {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--text-color);
 }
 .card-description {
   font-size: 14px;
-  font-weight: 300;
-  color: #757575;
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--text-grey-color);
 }
 h2 {
   font-size: 36px;
   font-weight: 700;
   color: var(--text-color);
 }
-h3 {
+.section-4 h3 {
   font-size: 16px;
   color: var(--text-color);
 }
 .description {
   font-size: 16px;
-  font-weight: 300;
-  color: #757575;
+  font-weight: 400;
+  line-height: 1.87;
+  color: var(--text-grey-color);
 }
 .card-title-2 {
-  color: #757575;
+  color: var(--text-grey-color);
 }
 .adress {
   font-size: 14px;
-  font-weight: 300;
-  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--text-white-color);
 }
 .contact-inf {
   font-size: 14px;
-  color: #ffffff60;
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--white-variation);
+}
+.card-title-image{
+  font-size: 18;
+  font-weight: 700;
+  line-height: 1.83;
+}
+footer{
+  background-color: var(--background-black-color);
 }
