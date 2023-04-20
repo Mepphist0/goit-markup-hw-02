@@ -61,6 +61,7 @@ button{
   color: var(--text-black-color);
   background-color: var(--button-background-color);
   cursor: pointer;
+  font-family: inherit;
 }
 .section-2 h3 {
   font-size: 14px;
@@ -116,8 +117,14 @@ footer {
   color: var(--text-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  font-family: inherit;
 }
 button:hover{
   color: var(--text-white-color);
   background-color: var(--accent-color);
+}
+a, address{
+  color: var(--text-black-color);
+  text-decoration: none;
+  font-style: normal;
 }
