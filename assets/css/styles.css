@@ -14,7 +14,7 @@
   --background-black-color: #2f303a;
   --white-variation: #ffffff60;
   --text-variation-gray: #75757520;
-  --button-background-color: #F5F4FA;
+  --button-background-color: #f5f4fa;
 }
 
 body {
@@ -25,14 +25,14 @@ body {
 a:hover {
   color: var(--accent-color);
 }
-.contact:focus,
-.contact-inf:focus {
+a:focus {
   color: var(--accent-color);
 }
 .logo {
   font-size: 26px;
   font-weight: 700;
   color: #2196f3;
+  letter-spacing: 3%;
   font-family: 'Raleway', sans-serif;
 }
 nav {
@@ -42,22 +42,26 @@ nav {
 .contact {
   font-size: 14px;
   font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 2%;
   color: var(--text-grey-color);
 }
 h1 {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  letter-spacing: 6%;
   color: var(--text-white-color);
   background-color: var(--background-black-color);
 }
 .section-1 {
   background-color: var(--background-black-color);
 }
-button{
+button {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
+  letter-spacing: 6%;
   color: var(--text-black-color);
   background-color: var(--button-background-color);
   cursor: pointer;
@@ -66,24 +70,36 @@ button{
 .section-2 h3 {
   font-size: 14px;
   font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 3%;
   color: var(--text-color);
 }
 .card-description {
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 3%;
   color: var(--text-grey-color);
 }
 h2 {
   font-size: 36px;
+  line-height: 42.19px;
+  font-weight: 900;
+  letter-spacing: 3%;
   color: var(--text-color);
 }
 .section-4 h3 {
   font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 500;
+  letter-spacing: 3%;
   color: var(--text-color);
 }
 .description {
   font-size: 16px;
   line-height: 1.87;
+  font-weight: 400;
+  letter-spacing: 3%;
   color: var(--text-grey-color);
 }
 .card-title-2 {
@@ -92,11 +108,15 @@ h2 {
 .adress {
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 3%;
   color: var(--text-white-color);
 }
 .contact-inf {
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 3%;
   color: var(--white-variation);
 }
 .card-tittle {
@@ -106,25 +126,32 @@ h2 {
   font-size: 18;
   font-weight: 700;
   line-height: 1.83;
+  letter-spacing: 6%;
 }
 footer {
   background-color: var(--background-black-color);
 }
-.principal-button{
+.principal-button {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
+  letter-spacing: 3%;
   color: var(--text-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
   font-family: inherit;
 }
-button:hover{
+button:hover {
   color: var(--text-white-color);
   background-color: var(--accent-color);
 }
-a, address{
+a,
+address {
   color: var(--text-black-color);
   text-decoration: none;
   font-style: normal;
+}
+button:focus {
+  color: var(--text-white-color);
+  background-color: var(--accent-color);
 }
